@@ -12,14 +12,14 @@ function toggleMode() {
   //Substituir a Imagem
   if (html.classList.contains("light")) {
     //se tiver lightMode, adicionar a imagem light
-    img.setAttribute("src", "./assets/pastel.png")
+    img.setAttribute("src", "./assets/Cake.png")
     DoceSalgado1.textContent = "Doces"
     DoceSalgado2.textContent = "Bolos"
     DoceSalgado3.textContent = "Mousses"
     DoceSalgado4.textContent = "Doces Diversos"
   } else {
     //se tiver sem o lightMode, manter a imagem normal
-    img.setAttribute("src", "./assets/cake.png")
+    img.setAttribute("src", "./assets/pastel.png")
     DoceSalgado1.textContent = "Risoles"
     DoceSalgado2.textContent = "Folhados"
     DoceSalgado3.textContent = "Assados"
